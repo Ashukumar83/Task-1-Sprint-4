@@ -11,4 +11,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo first job successful.
+        run: echo first-job-successful.
+
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo second-job-successful.
+
+  third_job:
+    runs-on: redhat-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo third-job-successful.
