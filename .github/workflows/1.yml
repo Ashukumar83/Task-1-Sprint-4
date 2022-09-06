@@ -21,7 +21,7 @@ jobs:
         run: echo second-job
 
   third_job:
-    runs-on: self-hosted
+    runs-on: [self-hosted, linux]
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
