@@ -20,9 +20,9 @@ jobs:
       - name: Run a one-line script
         run: echo second-job
 
-  third_job:
-    runs-on: [self-hosted, linux]
-    steps:
-      - uses: actions/checkout@v3
-      - name: Run a one-line script
-        run: echo third-job
+  # third_job:
+  #   runs-on: [self-hosted, linux]
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - name: Run a one-line script
+  #       run: echo third-job
