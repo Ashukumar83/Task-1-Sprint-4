@@ -1,4 +1,4 @@
-name: first_work_flow
+name: second_work_flow
 on:
   push:
     branches: [ "main" ]
