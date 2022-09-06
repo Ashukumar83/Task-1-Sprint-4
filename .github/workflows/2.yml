@@ -1,0 +1,14 @@
+name: first_work_flow
+on:
+  push:
+    branches: [ "main" ]
+  
+  #workflow_dispatch:
+
+jobs:
+  first_job:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo first job successful.
