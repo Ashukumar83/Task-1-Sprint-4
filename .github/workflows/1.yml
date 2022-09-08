@@ -2,7 +2,7 @@ name: first_work_flow
 
 env:
   msg: "Hey! I Am Ashu"
-  age: 21
+  age: 22
 
 on:
   push:
