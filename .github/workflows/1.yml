@@ -2,6 +2,7 @@ name: first_work_flow
 
 env:
   var:  80
+  msg: "Hey! I Am Ashu"
 
 on:
   push:
@@ -17,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo first-job
+        run: echo $msg
 
   second_job:
     runs-on: ubuntu-latest
