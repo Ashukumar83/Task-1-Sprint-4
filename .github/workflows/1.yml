@@ -1,6 +1,6 @@
 name: first_work_flow
 on:
-  push:
+  env:
     branches: [ "main" ]
     var = 80
   
