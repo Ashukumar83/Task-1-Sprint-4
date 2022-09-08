@@ -1,10 +1,12 @@
 name: first_work_flow
 on:
-  env:
+  push:
     branches: [ "main" ]
-    var = 80
-  
+    
   workflow_dispatch:
+
+env:
+  var = 80
 
 jobs:
   first_job:
