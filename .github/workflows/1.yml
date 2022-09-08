@@ -6,7 +6,7 @@ env:
 
 on:
   push:
-    branches: [ "Cool" ]
+    branches: [ "cool" ]
     
   workflow_dispatch:
 
