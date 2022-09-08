@@ -1,12 +1,12 @@
 name: first_work_flow
 
 env:
-  var:  80
+  var: 21
   msg: "Hey! I Am Ashu"
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "Cool" ]
     
   workflow_dispatch:
 
