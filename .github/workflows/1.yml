@@ -1,8 +1,8 @@
 name: first_work_flow
 
 env:
-  var: 21
   msg: "Hey! I Am Ashu"
+  age: 21
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo $var
+        run: echo $age
 
   # third_job:
   #   runs-on: [self-hosted, linux]
